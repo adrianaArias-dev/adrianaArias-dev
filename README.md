@@ -1,16 +1,120 @@
-## Hi there 👋
+<h1 align="center">
+  ✦ 𝓗𝓲, 𝓘'𝓶 𝓐𝓭𝓻𝓲𝓪𝓷𝓪 ✦
+</h1>
 
-<!--
-**adrianaarias-pixel/adrianaarias-pixel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  ☕️ 𓆉 ⋆｡°✩
+</p>
 
-Here are some ideas to get you started:
+<h3 align="center">
+  💻 Estudiante de Análisis de Sistemas Empresariales
+  <br>
+  🌿 Desarrolladora Frontend en formación
+  <br>
+  ✨ Apasionada por el diseño web y la creación de experiencias digitales
+</h3>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=9AD9C2&height=100&section=header"/>
+</p>
+
+---
+
+## 🌷 Sobre mí
+
+<p align="center">
+  ¡Hola! Soy <strong>Adriana</strong> 👋
+</p>
+
+<p align="center">
+  🎓 Estudiante de <strong>Análisis de Sistemas Empresariales</strong><br>
+  🎨 Me encanta combinar <strong>diseño + tecnología</strong><br>
+  💻 Actualmente aprendiendo y desarrollando mis habilidades en <strong>Frontend</strong><br>
+  🌱 Siempre buscando aprender algo nuevo y convertir ideas en proyectos
+</p>
+
+---
+
+## 💌 Conéctate conmigo
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/adriana-naomy-arias-tenorio-282753408/"_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+    alt="LinkedIn" height="30" width="40"/>
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/naomyelise" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+    alt="Instagram" height="30" width="40"/>
+  </a>
+</p>
+
+---
+
+## 🛠️ Tecnologías y herramientas
+
+<p align="center">
+
+  <a href="https://www.w3.org/html/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+    alt="HTML5" width="45" height="45"/>
+  </a>
+
+  <a href="https://www.w3schools.com/css/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+    alt="CSS3" width="45" height="45"/>
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+    alt="JavaScript" width="45" height="45"/>
+  </a>
+
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+    alt="Python" width="45" height="45"/>
+  </a>
+
+  <a href="https://www.java.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+    alt="Java" width="45" height="45"/>
+  </a>
+
+  <a href="https://www.figma.com/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+    alt="Figma" width="45" height="45"/>
+  </a>
+
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+    alt="AWS" width="45" height="45"/>
+  </a>
+
+</p>
+
+---
+
+## 🌱 Actualmente aprendiendo
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-9AD9C2?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/UI%2FUX-F2B5D4?style=for-the-badge&logo=figma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-B8C0FF?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-D8E2DC?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+</p>
+
+---
+
+## ✨ Un poco de mi estilo
+
+<p align="center">
+  🌿 <strong>Diseño</strong> · 💻 <strong>Programación</strong> · 🎨 <strong>Creatividad</strong> · ☕️ <strong>Café</strong>
+</p>
+
+<p align="center">
+  <i>"Creando ideas, aprendiendo código y diseñando experiencias."</i> ✨
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=9AD9C2&height=100&section=footer"/>
+</p>
