@@ -1,5 +1,5 @@
 <h1 align="center">
-  ✦ 𝓗𝓲, 𝓘'𝓶 𝓐𝓭𝓻𝓲𝓪𝓷𝓪 ✦
+  ✦ 𝓗𝓲, 𝓘'𝓶 Noamy y soy estudiante ✦
 </h1>
 
 <p align="center">
