@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Completo y Rosa</title>
+  <style>
+    /* Estilos generales con tonos rosa */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffe5ec, #ffc2d1);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(255, 75, 145, 0.2);
+      width: 100%;
+      max-width: 450px;
+    }
+
+    h2 {
+      color: #ff2a75;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    /* Entradas de texto */
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 6px 0 12px 0;
+      border: 2px solid #ffb3c6;
+      border-radius: 10px;
+      box-sizing: border-box;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      border-color: #ff2a75;
+      box-shadow: 0 0 8px rgba(255, 42, 117, 0.3);
+    }
+
+    /* Botones */
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: #ff2a75;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #ff0055;
+      transform: scale(1.02);
+    }
+
+    .btn-cancelar {
+      background: #a8a8a8;
+      display: none;
+      margin-top: 6px;
+    }
+
+    .btn-cancelar:hover {
+      background: #888888;
+    }
+
+    /* Buscador (Read) */
+    .search-box {
+      margin-top: 20px;
+      border-top: 1px solid #ffe1e9;
+      padding-top: 15px;
+    }
+
+    /* Lista de registros */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+      max-height: 250px;
+      overflow-y: auto;
+    }
+
+    /* Animación de entrada */
+    li {
+      background: #fff0f5;
+      border-left: 5px solid #ff2a75;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      animation: aparecer 0.3s ease;
+    }
+
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .info {
+      color: #4a4a4a;
+    }
+
+    .info strong {
+      color: #ff2a75;
+      display: block;
+    }
+
+    /* Botones pequeños para Editar y Eliminar */
+    .acciones {
+      display: flex;
+      gap: 6px;
+    }
+
+    .btn-icon {
+      border: none;
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: 0.2s;
+    }
+
+    .btn-edit {
+      background: #ffc107;
+      color: #333;
+    }
+
+    .btn-delete {
+      background: #ff4d4d;
+      color: white;
+    }
+
+    .btn-icon:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2 id="tituloForm"> Agregar Registro</h2>
+    
+    <!-- Campo oculto para guardar el ID cuando estemos editando -->
+    <input type="hidden" id="editIndex" value="-1">
+
+    <input type="text" id="nombre" placeholder="Nombre...">
+    <input type="text" id="detalle" placeholder="Detalle o nota...">
+    
+    <button class="btn" id="btnGuardar" onclick="guardar()">+ Guardar</button>
+    <button class="btn btn-cancelar" id="btnCancelar" onclick="limpiarFormulario()">Cancelar Edición</button>
+
+    <!-- Buscador (READ / Filtrar) -->
+    <div class="search-box">
+      <input type="text" id="buscar" placeholder="🔍 Buscar registros..." onkeyup="renderizar()">
+    </div>
+
+    <!-- Lista donde se muestran los ítems -->
+    <ul id="lista"></ul>
+  </div>
+
+  <script>
+    // Arreglo donde guardamos los datos
+    let registros = [];
+
+    const nombreInput = document.getElementById('nombre');
+    const detalleInput = document.getElementById('detalle');
+    const editIndexInput = document.getElementById('editIndex');
+    const btnGuardar = document.getElementById('btnGuardar');
+    const btnCancelar = document.getElementById('btnCancelar');
+    const tituloForm = document.getElementById('tituloForm');
+
+    // 1. CREATE & UPDATE (Guardar nuevo o actualizar existente)
+    function guardar() {
+      let nombre = nombreInput.value.trim();
+      let detalle = detalleInput.value.trim();
+      let index = parseInt(editIndexInput.value);
+
+      if (nombre === '' || detalle === '') {
+        alert('completa');
+        return;
+      }
+
+      if (index === -1) {
+        // CREATE: Añadir un nuevo registro
+        registros.push({ nombre, detalle });
+      } else {
+        // UPDATE: Editar el registro existente
+        registros[index] = { nombre, detalle };
+      }
+
+      limpiarFormulario();
+      renderizar();
+    }
+
+    // 2. READ (Mostrar y filtrar registros)
+    function renderizar() {
+      let lista = document.getElementById('lista');
+      let busqueda = document.getElementById('buscar').value.toLowerCase();
+      lista.innerHTML = '';
+
+      registros.forEach((item, index) => {
+        // Filtro de búsqueda
+        if (item.nombre.toLowerCase().includes(busqueda) || item.detalle.toLowerCase().includes(busqueda)) {
+          let li = document.createElement('li');
+          li.innerHTML = `
+            <div class="info">
+              <strong>${item.nombre}</strong>
+              <small>${item.detalle}</small>
+            </div>
+            <div class="acciones">
+              <button class="btn-icon btn-edit" onclick="prepararEditar(${index})">✏️</button>
+              <button class="btn-icon btn-delete" onclick="eliminar(${index})">🗑️</button>
+            </div>
+          `;
+          lista.appendChild(li);
+        }
+      });
+    }
+
+    // Preparar el formulario para UPDATE
+    function prepararEditar(index) {
+      nombreInput.value = registros[index].nombre;
+      detalleInput.value = registros[index].detalle;
+      editIndexInput.value = index;
+
+      tituloForm.textContent = '✏️ Editar Registro';
+      btnGuardar.textContent = 'Actualizar';
+      btnCancelar.style.display = 'block';
+    }
+
+    // 3. DELETE (Eliminar registro)
+    function eliminar(index) {
+      registros.splice(index, 1);
+      
+      // Si estábamos editando el que borramos, limpiar el formulario
+      if (parseInt(editIndexInput.value) === index) {
+        limpiarFormulario();
+      }
+      
+      renderizar();
+    }
+
+    // Restablecer el formulario al estado original
+    function limpiarFormulario() {
+      nombreInput.value = '';
+      detalleInput.value = '';
+      editIndexInput.value = '-1';
+
+      tituloForm.textContent = ' Agregar Registro';
+      btnGuardar.textContent = '+ Guardar';
+      btnCancelar.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

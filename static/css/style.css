@@ -1,0 +1,244 @@
+/* Variables de colores Rosa / Neón */
+:root {
+  --bg-dark: #0f0b15;
+  --card-bg: #1a1225;
+  --card-item: #241834;
+  --pink-primary: #ff2a85;
+  --pink-light: #ff75b5;
+  --pink-glow: rgba(255, 42, 133, 0.4);
+  --pink-glow-strong: rgba(255, 42, 133, 0.8);
+  --text-main: #fbebf3;
+  --text-muted: #a395b0;
+  --border-pink: rgba(255, 42, 133, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Layout Principal */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  width: 100%;
+  max-width: 850px;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Tarjetas */
+.panel {
+  background: var(--card-bg);
+  border: 1px solid var(--border-pink);
+  border-radius: 20px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efecto Resplandor Rosa (Glow) */
+.glow-effect {
+  box-shadow: 0 0 20px var(--pink-glow);
+  animation: pulseGlow 3s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 15px var(--pink-glow); }
+  50% { box-shadow: 0 0 30px var(--pink-glow-strong); }
+}
+
+/* Encabezados */
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--pink-light);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-bar {
+  width: 5px;
+  height: 24px;
+  background-color: var(--pink-primary);
+  border-radius: 4px;
+  box-shadow: 0 0 10px var(--pink-primary);
+}
+
+/* Campos de Formulario */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--pink-light);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: var(--bg-dark);
+  border: 1px solid var(--border-pink);
+  border-radius: 12px;
+  color: var(--text-main);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: var(--pink-primary);
+  box-shadow: 0 0 12px var(--pink-glow);
+}
+
+/* Botón Interactivo */
+.btn-submit {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, var(--pink-primary), #d8006f);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px var(--pink-glow);
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--pink-glow-strong);
+  filter: brightness(1.1);
+}
+
+.btn-submit:active {
+  transform: translateY(0);
+}
+
+/* Notificación Toast */
+.toast {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(255, 42, 133, 0.15);
+  border: 1px solid var(--pink-primary);
+  color: var(--pink-light);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Contador y Lista */
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.counter {
+  background: rgba(255, 42, 133, 0.2);
+  color: var(--pink-light);
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border-pink);
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* Animación de entrada de tarjetas */
+.item-card {
+  background: var(--card-item);
+  border: 1px solid var(--border-pink);
+  border-radius: 12px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: slideDown 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  transition: border-color 0.3s ease;
+}
+
+.item-card:hover {
+  border-color: var(--pink-primary);
+}
+
+.item-info h3 {
+  font-size: 1rem;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.item-info span {
+  font-size: 0.75rem;
+  color: var(--pink-light);
+  background: rgba(255, 42, 133, 0.1);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.dot-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--pink-primary);
+  box-shadow: 0 0 8px var(--pink-primary);
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
