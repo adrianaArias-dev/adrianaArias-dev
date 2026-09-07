@@ -52,6 +52,7 @@ Soy **Adriana**, estudiante de **Análisis de Sistemas Empresariales** con un en
 </div>
 
 <br>
+<div align="center">
 
 *"Creando ideas, aprendiendo código y diseñando experiencias."*
 
