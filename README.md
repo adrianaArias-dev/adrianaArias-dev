@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C3E50,100:9AD9C2&height=180&section=header&text=Adriana%20Arias&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Business%20Systems%20Analysis%20Student&descAlignY=58&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C3E50,100:9AD9C2&height=180&section=header&text=Adriana%20Arias&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Business%20Systems%20Analysis%20Student&descAlignY=58&descSize=16" alt="Banner de encabezado"/>
 
 </div>
 
@@ -56,10 +56,16 @@ Soy **Adriana**, estudiante de **Análisis de Sistemas Empresariales** con un en
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=adrianaArias-dev&show_icons=true&theme=default&hide_border=true&title_color=2C3E50&icon_color=9AD9C2&text_color=333333" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adrianaArias-dev&hide_border=true&background=FFFFFF&stroke=2C3E50&ring=9AD9C2&fire=9AD9C2&currStreakLabel=2C3E50" height="165"/>
-
+  <table>
+    <tr>
+      <td align="center" valign="middle">
+        <img src="https://github-readme-stats.vercel.app/api?username=adrianaArias-dev&show_icons=true&theme=default&hide_border=true&title_color=2C3E50&icon_color=9AD9C2&text_color=333333" height="165" alt="Estadísticas de GitHub"/>
+      </td>
+      <td align="center" valign="middle">
+        <img src="https://streak-stats.demolab.com/?user=adrianaArias-dev&hide_border=true&background=FFFFFF&stroke=2C3E50&ring=9AD9C2&fire=9AD9C2&currStreakLabel=2C3E50" height="165" alt="Racha de contribuciones"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>
@@ -68,7 +74,8 @@ Soy **Adriana**, estudiante de **Análisis de Sistemas Empresariales** con un en
 
 *"Creando ideas, aprendiendo código y diseñando experiencias."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:9AD9C2,100:2C3E50&height=100&section=footer"/>
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:9AD9C2,100:2C3E50&height=100&section=footer" alt="Banner de pie de página"/>
 
 </div>
- tengo este codigo 
