@@ -53,12 +53,12 @@ Soy **Adriana**, estudiante de **Análisis de Sistemas Empresariales** con un en
 
 <br>
 
-## 📊 Estadísticas de GitHub
-
+<!-- 📊 Estadísticas de GitHub -->
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=adrianaArias-dev&show_icons=true&theme=default&hide_border=true&title_color=2C3E50&icon_color=9AD9C2&text_color=333333" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adrianaArias-dev&hide_border=true&background=FFFFFF&stroke=2C3E50&ring=9AD9C2&fire=9AD9C2&currStreakLabel=2C3E50" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=adrianaArias-dev&show_icons=true&theme=default&hide_border=true&title_color=2C3E50&icon_color=9AD9C2&text_color=333333" height="165" alt="Estadísticas generales de GitHub de Adriana"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=adrianaArias-dev&hide_border=true&background=FFFFFF&stroke=2C3E50&ring=9AD9C2&fire=9AD9C2&currStreakLabel=2C3E50" height="165" alt="Racha de contribuciones de Adriana"/>
 
 </div>
 
