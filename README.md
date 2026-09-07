@@ -53,13 +53,11 @@ Soy **Adriana**, estudiante de **Análisis de Sistemas Empresariales** con un en
 
 <br>
 
-## 📊 Estadísticas de GitHub
+<h2 align="center">📊 Estadísticas de GitHub</h2>
 
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=adrianaArias-dev&hide_border=true&background=FFFFFF&stroke=2C3E50&ring=9AD9C2&fire=9AD9C2&currStreakLabel=2C3E50" height="165" alt="Racha de contribuciones"/>
-
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=adrianaArias-dev&hide_border=true&background=FFFFFF&stroke=2C3E50&ring=9AD9C2&fire=9AD9C2&currStreakLabel=2C3E50" height="165" alt="Racha de contribuciones"/>
+</p>
 
 <br>
 
