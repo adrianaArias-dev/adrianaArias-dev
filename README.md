@@ -50,12 +50,12 @@ Estudiante de **Análisis de Sistemas Empresariales** enfocada en el desarrollo 
 ## 📊 Actividad en GitHub
 
 <div align="center">
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=naomyelise&show_icons=true&theme=default&hide_border=true&title_color=2C3E50&icon_color=9AD9C2&text_color=333333&bg_color=ffffff"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naomyelise&layout=compact&theme=default&hide_border=true&title_color=2C3E50&text_color=333333&bg_color=ffffff"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=adrianaArias-dev&show_icons=true&theme=default&hide_border=true&title_color=2C3E50&icon_color=9AD9C2&text_color=333333&bg_color=ffffff"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adrianaArias-dev&layout=compact&theme=default&hide_border=true&title_color=2C3E50&text_color=333333&bg_color=ffffff"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=naomyelise&theme=default&hide_border=true&background=FFFFFF&ring=9AD9C2&fire=2C3E50&currStreakLabel=2C3E50"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=adrianaArias-dev&theme=default&hide_border=true&background=FFFFFF&ring=9AD9C2&fire=2C3E50&currStreakLabel=2C3E50"/>
 </div>
 
 <br>
