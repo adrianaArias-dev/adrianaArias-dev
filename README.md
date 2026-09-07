@@ -1,120 +1,73 @@
-<h1 align="center">
-  ✦ 𝓗𝓲 ✦
-</h1>
+<div align="center">
 
-<p align="center">
-  ☕️ 𓆉 ⋆｡°✩
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C3E50,100:9AD9C2&height=180&section=header&text=Adriana%20Arias&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Systems%20Analysis%20Student&descAlignY=58&descSize=16"/>
 
-<h3 align="center">
-  💻 Estudiante de Análisis de Sistemas Empresariales
-  <br>
-  🌿 Desarrolladora Frontend en formación
-  <br>
-  ✨ Apasionada por el diseño web y la creación de experiencias digitales
-</h3>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=18&pause=1200&color=2C3E50&center=true&vCenter=true&width=600&lines=Estudiante+de+An%C3%A1lisis+de+Sistemas+Empresariales;Desarrolladora+Frontend+en+formaci%C3%B3n;Enfocada+en+dise%C3%B1o+de+experiencias+digitales" />
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9AD9C2&height=100&section=header"/>
-</p>
+<br>
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriana-naomy-arias-tenorio-282753408/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/naomyelise)
 
-## 🌷 Sobre mí
+</div>
 
-<p align="center">
-  ¡Hola! Soy <strong>Adriana</strong> 👋
-</p>
+<br>
 
-<p align="center">
-  🎓 Estudiante de <strong>Análisis de Sistemas Empresariales</strong><br>
-  🎨 Me encanta combinar <strong>diseño + tecnología</strong><br>
-  💻 Actualmente aprendiendo y desarrollando mis habilidades en <strong>Frontend</strong><br>
-  🌱 Siempre buscando aprender algo nuevo y convertir ideas en proyectos
-</p>
+## 📌 Sobre mí
 
----
+Estudiante de **Análisis de Sistemas Empresariales** enfocada en el desarrollo Frontend y el diseño de interfaces. Me interesa transformar ideas en productos digitales funcionales, cuidando tanto la experiencia de usuario como la calidad del código.
 
-## 💌 Conéctate conmigo
+- 🎯 Enfoque actual: **HTML, CSS, JavaScript** y fundamentos de **UI/UX**
+- 🧩 Explorando **Python** y servicios en la nube con **AWS**
+- 📈 Interesada en unir procesos de negocio con soluciones tecnológicas
+- 🤝 Abierta a proyectos colaborativos y prácticas profesionales
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/adriana-naomy-arias-tenorio-282753408/"_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-    alt="LinkedIn" height="30" width="40"/>
-  </a>
-  &nbsp;
-  <a href="https://instagram.com/naomyelise" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-    alt="Instagram" height="30" width="40"/>
-  </a>
-</p>
+<br>
 
----
+## 🧰 Stack técnico
 
-## 🛠️ Tecnologías y herramientas
+<div align="center">
 
-<p align="center">
+**Lenguajes**
+<br>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 
-  <a href="https://www.w3.org/html/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-    alt="HTML5" width="45" height="45"/>
-  </a>
+**Herramientas y plataformas**
+<br>
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
-  <a href="https://www.w3schools.com/css/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-    alt="CSS3" width="45" height="45"/>
-  </a>
+</div>
 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-    alt="JavaScript" width="45" height="45"/>
-  </a>
+<br>
 
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-    alt="Python" width="45" height="45"/>
-  </a>
+## 📊 Actividad en GitHub
 
-  <a href="https://www.java.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-    alt="Java" width="45" height="45"/>
-  </a>
+<div align="center">
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=naomyelise&show_icons=true&theme=default&hide_border=true&title_color=2C3E50&icon_color=9AD9C2&text_color=333333&bg_color=ffffff"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naomyelise&layout=compact&theme=default&hide_border=true&title_color=2C3E50&text_color=333333&bg_color=ffffff"/>
+</div>
 
-  <a href="https://www.figma.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
-    alt="Figma" width="45" height="45"/>
-  </a>
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=naomyelise&theme=default&hide_border=true&background=FFFFFF&ring=9AD9C2&fire=2C3E50&currStreakLabel=2C3E50"/>
+</div>
 
-  <a href="https://aws.amazon.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-    alt="AWS" width="45" height="45"/>
-  </a>
+<br>
 
-</p>
+## 📬 Contacto
 
----
+<div align="center">
 
-## 🌱 Actualmente aprendiendo
+Interesada en conectar por proyectos, prácticas o colaboraciones.
+<br>
+[![LinkedIn](https://img.shields.io/badge/Conectemos%20en%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriana-naomy-arias-tenorio-282753408/)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-9AD9C2?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/UI%2FUX-F2B5D4?style=for-the-badge&logo=figma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-B8C0FF?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-D8E2DC?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-</p>
+</div>
 
----
-
-## ✨ Un poco de mi estilo
-
-<p align="center">
-  🌿 <strong>Diseño</strong> · 💻 <strong>Programación</strong> · 🎨 <strong>Creatividad</strong> · ☕️ <strong>Café</strong>
-</p>
-
-<p align="center">
-  <i>"Creando ideas, aprendiendo código y diseñando experiencias."</i> ✨
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9AD9C2&height=100&section=footer"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:9AD9C2,100:2C3E50&height=100&section=footer"/>
